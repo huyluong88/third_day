@@ -1,5 +1,6 @@
 *{
   font-family: sans-serif;
+  margin: 1px;
 }
 
 .nav-bar {
@@ -10,7 +11,7 @@ background: #f1f1f1;
 }
 .strip {
   border-bottom-color: red;
-  max-width: 60%;
+  
   border-bottom-width: 0.3rem;
 }
 .nav-list {
@@ -99,6 +100,7 @@ footer{
     -webkit-column-gap: 1em;
     column-count: 3;
     column-gap: 1em;
+    margin: -15px;
 }
 a{
   color: black;
@@ -121,4 +123,15 @@ img {
 img:hover {
     opacity: 0.5;
     filter: alpha(opacity=100);
+}
+.flex {
+  display: flex;
+}
+.flex1 {
+  flex: initial;;
+  width: 200px;
+  min-width: 240px;
+}
+.flex2 {
+  flex: 1;
 }
